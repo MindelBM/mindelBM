@@ -7,8 +7,8 @@ SDF functions ported from the almighty Inigo Quilezles:
 https://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm
 */
 
-import { clamp, mix } from "./num.js"
-import { length, sub, dot, mulN } from "./vec2.js"
+import { clamp, mix } from "num.js"
+import { length, sub, dot, mulN } from "Vec2.js"
 
 export function sdCircle(p, radius) { // vec2, float
 	return length(p) - radius
