@@ -4,8 +4,8 @@
 @desc   Smooth union of two circles
 */
 
-import { sdCircle, opSmoothUnion } from '/mindelBM/sdf.js'
-import { sub, vec2 } from '/mindelBM/vec2.js'
+import { sdCircle, opSmoothUnion } from 'sdf.js'
+import { sub, vec2 } from 'Vec2.js'
 
 const density = '#WX?*:÷×+=-· '
 
